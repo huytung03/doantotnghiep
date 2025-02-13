@@ -27,4 +27,43 @@ public class OrderDetailsEntity {
     private int quantity;
     private BigDecimal price;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public OrderEntity getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(OrderEntity orderId) {
+        this.orderId = orderId;
+    }
+
+    public MenuEntity getMenuId() {
+        return menuId;
+    }
+
+    public void setMenuId(MenuEntity menuId) {
+        this.menuId = menuId;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
 }

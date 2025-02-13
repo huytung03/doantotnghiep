@@ -20,4 +20,36 @@ public class RevenueEntity {
     private Timestamp createdAt;
     private int totaloders;
     private int getTotalRevenue;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public int getTotaloders() {
+        return totaloders;
+    }
+
+    public void setTotaloders(int totaloders) {
+        this.totaloders = totaloders;
+    }
+
+    public int getGetTotalRevenue() {
+        return getTotalRevenue;
+    }
+
+    public void setGetTotalRevenue(int getTotalRevenue) {
+        this.getTotalRevenue = getTotalRevenue;
+    }
 }
